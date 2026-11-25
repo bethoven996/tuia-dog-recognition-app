@@ -8,7 +8,10 @@ from uuid import uuid4
 
 import cv2
 import numpy as np
+import torch
+from torchvision import models
 
+from lib import preprocessing as prep
 from lib.schemas import EmbeddingRecord, Neighbor, SearchResult
 from lib.storage.base import EmbeddingStoreProtocol
 
@@ -59,7 +62,6 @@ class SimilarityService:
     # ------------------------------------------------------------------
     # Etapa 1: funciones a implementar
     # ------------------------------------------------------------------
-
     def extract_embedding(self, image: np.ndarray) -> list[float]:
         """
         Genera el embedding de una imagen usando un modelo pre-entrenado en
@@ -72,7 +74,17 @@ class SimilarityService:
           - Recordar que la imagen llega en BGR (OpenCV).
         Retorna una lista de floats de dimension EMBEDDING_DIM.
         """
-        raise NotImplementedError("Etapa 1: implementar extract_embedding")
+        # ResNet18 sin la capa de clasificacion (embedding de 512). Se carga una sola vez.
+        if getattr(self, "_model", None) is None:
+            self._model = models.resnet18(weights=models.ResNet18_Weights.IMAGENET1K_V1)
+            self._model.fc = torch.nn.Identity()
+            self._model.eval()
+
+        tensor = prep.to_tensor(prep.to_rgb_resized(image, self.image_size)).unsqueeze(0)
+        with torch.no_grad():
+            emb = self._model(tensor)[0].numpy()
+        emb = emb / np.linalg.norm(emb)
+        return emb.astype(float).tolist()
 
     def search_similar_images(self, embedding: list[float], top_k: int) -> list[Neighbor]:
         """
@@ -85,7 +97,17 @@ class SimilarityService:
         Retorna una lista de Neighbor (path, breed, score) ordenada por score
         descendente.
         """
-        raise NotImplementedError("Etapa 1: implementar search_similar_images")
+        if hasattr(self.store, "search"):
+            records = self.store.search(embedding, top_k)
+        else:
+            records = self.store.all()
+
+        vecinos = [
+            Neighbor(path=r.path, breed=r.breed, score=self.similarity(embedding, r.embedding))
+            for r in records
+        ]
+        vecinos.sort(key=lambda n: n.score, reverse=True)
+        return vecinos[:top_k]
 
     def predict_breed_from_neighbors(self, results: list[Neighbor]) -> tuple[str, float]:
         """
@@ -95,8 +117,15 @@ class SimilarityService:
         Si el mejor score esta por debajo de self.similarity_threshold se
         considera "unknown". Retorna (raza, score).
         """
-        raise NotImplementedError("Etapa 1: implementar predict_breed_from_neighbors")
+        # Voto ponderado por score. Score devuelto: proporcion del voto de la raza ganadora.
+        if not results or results[0].score < self.similarity_threshold:
+            return "unknown", results[0].score if results else 0.0
 
+        votos: dict[str, float] = {}
+        for n in results:
+            votos[n.breed] = votos.get(n.breed, 0.0) + n.score
+        raza = max(votos, key=votos.get)
+        return raza, votos[raza] / sum(votos.values())
     # ------------------------------------------------------------------
     # Helpers de similitud provistos
     # ------------------------------------------------------------------
