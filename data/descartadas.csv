@@ -1,0 +1,314 @@
+path,breed,split,reglas
+train/Afghan/016.jpg,Afghan,train,5. Duplicada
+train/Afghan/022.jpg,Afghan,train,5. Duplicada
+train/Afghan/092.jpg,Afghan,train,5. Duplicada
+train/African Wild Dog/006.jpg,African Wild Dog,train,5. Duplicada
+train/African Wild Dog/011.jpg,African Wild Dog,train,5. Duplicada
+train/African Wild Dog/101.jpg,African Wild Dog,train,3. Borrosa (solo train)
+train/Airedale/004.jpg,Airedale,train,5. Duplicada
+train/Airedale/013.jpg,Airedale,train,5. Duplicada
+train/Airedale/021.jpg,Airedale,train,5. Duplicada
+train/Airedale/029.jpg,Airedale,train,5. Duplicada
+train/Airedale/102.jpg,Airedale,train,5. Duplicada
+train/American Hairless/62.jpg,American Hairless,train,5. Duplicada
+train/American Hairless/65.jpg,American Hairless,train,5. Duplicada
+train/American Spaniel/35.jpg,American Spaniel,train,6. Conflicto de etiqueta
+train/American Spaniel/48.jpg,American Spaniel,train,5. Duplicada
+train/American Spaniel/61.jpg,American Spaniel,train,6. Conflicto de etiqueta
+train/American Spaniel/68.jpg,American Spaniel,train,6. Conflicto de etiqueta
+train/American Spaniel/77.jpg,American Spaniel,train,5. Duplicada
+train/Basenji/83.jpg,Basenji,train,5. Duplicada
+train/Basenji/85.jpg,Basenji,train,5. Duplicada
+train/Basenji/93.jpg,Basenji,train,5. Duplicada
+train/Basenji/98.jpg,Basenji,train,5. Duplicada
+train/Beagle/056.jpg,Beagle,train,3. Borrosa (solo train)
+train/Beagle/067.jpg,Beagle,train,3. Borrosa (solo train)
+train/Beagle/089.jpg,Beagle,train,5. Duplicada
+train/Beagle/095.jpg,Beagle,train,5. Duplicada
+train/Bearded Collie/51.jpg,Bearded Collie,train,5. Duplicada
+train/Bichon Frise/032.jpg,Bichon Frise,train,3. Borrosa (solo train)
+train/Bichon Frise/041.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/066.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/069.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/072.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/073.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/075.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/088.jpg,Bichon Frise,train,5. Duplicada
+train/Bichon Frise/098.jpg,Bichon Frise,train,5. Duplicada
+train/Bloodhound/067.jpg,Bloodhound,train,3. Borrosa (solo train)
+train/Bloodhound/094.jpg,Bloodhound,train,5. Duplicada
+train/Bloodhound/141.jpg,Bloodhound,train,5. Duplicada
+train/Bluetick/101.jpg,Bluetick,train,5. Duplicada
+train/Border Collie/001.jpg,Border Collie,train,5. Duplicada
+train/Border Collie/004.jpg,Border Collie,train,5. Duplicada
+train/Border Collie/017.jpg,Border Collie,train,5. Duplicada
+train/Border Collie/033.jpg,Border Collie,train,5. Duplicada
+train/Border Collie/090.jpg,Border Collie,train,6. Conflicto de etiqueta
+train/Borzoi/078.jpg,Borzoi,train,3. Borrosa (solo train)
+train/Borzoi/094.jpg,Borzoi,train,5. Duplicada
+train/Borzoi/102.jpg,Borzoi,train,5. Duplicada
+train/Boston Terrier/67.jpg,Boston Terrier,train,5. Duplicada
+train/Boston Terrier/76.jpg,Boston Terrier,train,5. Duplicada
+train/Boxer/022.jpg,Boxer,train,5. Duplicada
+train/Boxer/034.jpg,Boxer,train,5. Duplicada
+train/Boxer/037.jpg,Boxer,train,5. Duplicada
+train/Boxer/078.jpg,Boxer,train,5. Duplicada
+train/Boxer/083.jpg,Boxer,train,5. Duplicada
+train/Boxer/104.jpg,Boxer,train,5. Duplicada
+train/Boxer/121.jpg,Boxer,train,5. Duplicada
+train/Boxer/122.jpg,Boxer,train,5. Duplicada
+train/Bull Mastiff/010.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/031.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/036.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/037.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/042.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/044.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/046.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Mastiff/047.jpg,Bull Mastiff,train,5. Duplicada
+train/Bull Terrier/044.jpg,Bull Terrier,train,5. Duplicada
+train/Bulldog/028.jpg,Bulldog,train,5. Duplicada
+train/Bulldog/033.jpg,Bulldog,train,5. Duplicada
+train/Bulldog/042.jpg,Bulldog,train,5. Duplicada
+train/Bulldog/090.jpg,Bulldog,train,5. Duplicada
+train/Cairn/087.jpg,Cairn,train,5. Duplicada
+train/Cairn/095.jpg,Cairn,train,5. Duplicada
+train/Cairn/102.jpg,Cairn,train,5. Duplicada
+train/Cairn/105.jpg,Cairn,train,5. Duplicada
+train/Chihuahua/005.jpg,Chihuahua,train,5. Duplicada
+train/Chihuahua/027.jpg,Chihuahua,train,3. Borrosa (solo train)
+train/Chihuahua/079.jpg,Chihuahua,train,5. Duplicada
+train/Chihuahua/080.jpg,Chihuahua,train,5. Duplicada
+train/Chihuahua/089.jpg,Chihuahua,train,5. Duplicada
+train/Chihuahua/090.jpg,Chihuahua,train,5. Duplicada
+train/Chinese Crested/010.jpg,Chinese Crested,train,3. Borrosa (solo train)
+train/Chinese Crested/040.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/041.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/042.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/043.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/050.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/063.jpg,Chinese Crested,train,5. Duplicada
+train/Chinese Crested/092.jpg,Chinese Crested,train,3. Borrosa (solo train)
+train/Clumber/006.jpg,Clumber,train,5. Duplicada
+train/Clumber/018.jpg,Clumber,train,5. Duplicada
+train/Clumber/036.jpg,Clumber,train,5. Duplicada
+train/Clumber/039.jpg,Clumber,train,5. Duplicada
+train/Clumber/047.jpg,Clumber,train,5. Duplicada
+train/Clumber/076.jpg,Clumber,train,5. Duplicada
+train/Cockapoo/019.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/041.jpg,Cockapoo,train,6. Conflicto de etiqueta
+train/Cockapoo/073.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/095.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/096.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/104.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/108.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/113.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/117.jpg,Cockapoo,train,5. Duplicada
+train/Cockapoo/128.jpg,Cockapoo,train,5. Duplicada
+train/Cocker/006.jpg,Cocker,train,5. Duplicada
+train/Cocker/040.jpg,Cocker,train,5. Duplicada
+train/Cocker/047.jpg,Cocker,train,5. Duplicada
+train/Cocker/053.jpg,Cocker,train,5. Duplicada
+train/Collie/074.jpg,Collie,train,"5. Duplicada, 6. Conflicto de etiqueta"
+train/Collie/087.jpg,Collie,train,5. Duplicada
+train/Collie/114.jpg,Collie,train,5. Duplicada
+train/Corgi/048.jpg,Corgi,train,5. Duplicada
+train/Corgi/063.jpg,Corgi,train,5. Duplicada
+train/Corgi/090.jpg,Corgi,train,5. Duplicada
+train/Corgi/106.jpg,Corgi,train,5. Duplicada
+train/Dhole/012.jpg,Dhole,train,5. Duplicada
+train/Dhole/014.jpg,Dhole,train,5. Duplicada
+train/Dhole/017.jpg,Dhole,train,5. Duplicada
+train/Dhole/100.jpg,Dhole,train,5. Duplicada
+train/Dhole/101.jpg,Dhole,train,5. Duplicada
+train/Dhole/104.jpg,Dhole,train,5. Duplicada
+train/Dhole/109.jpg,Dhole,train,5. Duplicada
+train/Dhole/111.jpg,Dhole,train,5. Duplicada
+train/Dhole/119.jpg,Dhole,train,5. Duplicada
+train/Dingo/028.jpg,Dingo,train,5. Duplicada
+train/Dingo/038.jpg,Dingo,train,5. Duplicada
+train/Dingo/074.jpg,Dingo,train,5. Duplicada
+train/Doberman/033.jpg,Doberman,train,5. Duplicada
+train/Doberman/041.jpg,Doberman,train,5. Duplicada
+train/Doberman/043.jpg,Doberman,train,5. Duplicada
+train/Doberman/073.jpg,Doberman,train,5. Duplicada
+train/Doberman/084.jpg,Doberman,train,5. Duplicada
+train/Elk Hound/097.jpg,Elk Hound,train,5. Duplicada
+train/German Sheperd/018.jpg,German Sheperd,train,5. Duplicada
+train/Great Dane/119.jpg,Great Dane,train,5. Duplicada
+train/Great Perenees/63.jpg,Great Perenees,train,5. Duplicada
+train/Greyhound/005.jpg,Greyhound,train,5. Duplicada
+train/Greyhound/055.jpg,Greyhound,train,5. Duplicada
+train/Greyhound/071.jpg,Greyhound,train,5. Duplicada
+train/Greyhound/096.jpg,Greyhound,train,5. Duplicada
+train/Groenendael/031.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/042.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/084.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/085.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/096.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/099.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/113.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/118.jpg,Groenendael,train,5. Duplicada
+train/Groenendael/119.jpg,Groenendael,train,5. Duplicada
+train/Irish Spaniel/036.jpg,Irish Spaniel,train,"5. Duplicada, 6. Conflicto de etiqueta"
+train/Irish Spaniel/044.jpg,Irish Spaniel,train,5. Duplicada
+train/Irish Spaniel/063.jpg,Irish Spaniel,train,5. Duplicada
+train/Irish Spaniel/105.jpg,Irish Spaniel,train,"5. Duplicada, 6. Conflicto de etiqueta"
+train/Irish Spaniel/109.jpg,Irish Spaniel,train,5. Duplicada
+train/Irish Spaniel/113.jpg,Irish Spaniel,train,5. Duplicada
+train/Irish Spaniel/114.jpg,Irish Spaniel,train,"5. Duplicada, 6. Conflicto de etiqueta"
+train/Japanese Spaniel/055.jpg,Japanese Spaniel,train,5. Duplicada
+train/Komondor/068.jpg,Komondor,train,5. Duplicada
+train/Komondor/081.jpg,Komondor,train,5. Duplicada
+train/Komondor/084.jpg,Komondor,train,5. Duplicada
+train/Komondor/087.jpg,Komondor,train,5. Duplicada
+train/Komondor/095.jpg,Komondor,train,5. Duplicada
+train/Komondor/100.jpg,Komondor,train,5. Duplicada
+train/Komondor/101.jpg,Komondor,train,5. Duplicada
+train/Komondor/102.jpg,Komondor,train,5. Duplicada
+train/Labradoodle/007.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/010.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/013.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/016.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/018.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/019.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/020.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/024.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/025.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/030.jpg,Labradoodle,train,"5. Duplicada, 6. Conflicto de etiqueta"
+train/Labradoodle/036.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/039.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/076.jpg,Labradoodle,train,5. Duplicada
+train/Labradoodle/077.jpg,Labradoodle,train,5. Duplicada
+train/Labrador/037.jpg,Labrador,train,5. Duplicada
+train/Labrador/103.jpg,Labrador,train,5. Duplicada
+train/Labrador/108.jpg,Labrador,train,5. Duplicada
+train/Labrador/112.jpg,Labrador,train,5. Duplicada
+train/Labrador/139.jpg,Labrador,train,5. Duplicada
+train/Labrador/141.jpg,Labrador,train,5. Duplicada
+train/Labrador/146.jpg,Labrador,train,5. Duplicada
+train/Lhasa/015.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/016.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/019.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/025.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/035.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/045.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/070.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/072.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/076.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/091.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/102.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/116.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/117.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/123.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/124.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/127.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/138.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/141.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/145.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/147.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/152.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/156.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/157.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/158.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/159.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/160.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/165.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/174.jpg,Lhasa,train,5. Duplicada
+train/Lhasa/175.jpg,Lhasa,train,5. Duplicada
+train/Malinois/091.jpg,Malinois,train,5. Duplicada
+train/Maltese/006.jpg,Maltese,train,5. Duplicada
+train/Maltese/016.jpg,Maltese,train,5. Duplicada
+train/Maltese/038.jpg,Maltese,train,5. Duplicada
+train/Maltese/040.jpg,Maltese,train,3. Borrosa (solo train)
+train/Maltese/041.jpg,Maltese,train,3. Borrosa (solo train)
+train/Maltese/045.jpg,Maltese,train,5. Duplicada
+train/Maltese/047.jpg,Maltese,train,5. Duplicada
+train/Maltese/099.jpg,Maltese,train,3. Borrosa (solo train)
+train/Maltese/120.jpg,Maltese,train,3. Borrosa (solo train)
+train/Mex Hairless/35.jpg,Mex Hairless,train,5. Duplicada
+train/Mex Hairless/64.jpg,Mex Hairless,train,5. Duplicada
+train/Mex Hairless/93.jpg,Mex Hairless,train,5. Duplicada
+train/Pekinese/094.jpg,Pekinese,train,5. Duplicada
+train/Pekinese/096.jpg,Pekinese,train,5. Duplicada
+train/Pekinese/103.jpg,Pekinese,train,5. Duplicada
+train/Pit Bull/050.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/060.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/065.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/066.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/067.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/068.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/073.jpg,Pit Bull,train,5. Duplicada
+train/Pit Bull/102.jpg,Pit Bull,train,5. Duplicada
+train/Pomeranian/052.jpg,Pomeranian,train,3. Borrosa (solo train)
+train/Pomeranian/093.jpg,Pomeranian,train,3. Borrosa (solo train)
+train/Poodle/016.jpg,Poodle,train,3. Borrosa (solo train)
+train/Poodle/028.jpg,Poodle,train,5. Duplicada
+train/Poodle/029.jpg,Poodle,train,5. Duplicada
+train/Poodle/032.jpg,Poodle,train,5. Duplicada
+train/Poodle/041.jpg,Poodle,train,5. Duplicada
+train/Poodle/042.jpg,Poodle,train,5. Duplicada
+train/Poodle/047.jpg,Poodle,train,5. Duplicada
+train/Poodle/053.jpg,Poodle,train,5. Duplicada
+train/Poodle/056.jpg,Poodle,train,5. Duplicada
+train/Poodle/058.jpg,Poodle,train,5. Duplicada
+train/Poodle/076.jpg,Poodle,train,5. Duplicada
+train/Poodle/081.jpg,Poodle,train,3. Borrosa (solo train)
+train/Poodle/090.jpg,Poodle,train,5. Duplicada
+train/Poodle/099.jpg,Poodle,train,5. Duplicada
+train/Pug/036.jpg,Pug,train,5. Duplicada
+train/Pug/060.jpg,Pug,train,5. Duplicada
+train/Rhodesian/016.jpg,Rhodesian,train,5. Duplicada
+train/Rhodesian/021.jpg,Rhodesian,train,5. Duplicada
+train/Rhodesian/040.jpg,Rhodesian,train,5. Duplicada
+train/Rhodesian/046.jpg,Rhodesian,train,5. Duplicada
+train/Rhodesian/073.jpg,Rhodesian,train,5. Duplicada
+train/Rhodesian/123.jpg,Rhodesian,train,5. Duplicada
+train/Saint Bernard/68.jpg,Saint Bernard,train,5. Duplicada
+train/Schnauzer/048.jpg,Schnauzer,train,5. Duplicada
+train/Schnauzer/069.jpg,Schnauzer,train,5. Duplicada
+train/Schnauzer/090.jpg,Schnauzer,train,5. Duplicada
+train/Scotch Terrier/030.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/039.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/040.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/043.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/050.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/053.jpg,Scotch Terrier,train,5. Duplicada
+train/Scotch Terrier/059.jpg,Scotch Terrier,train,5. Duplicada
+train/Shar_Pei/32.jpg,Shar_Pei,train,5. Duplicada
+train/Shih-Tzu/025.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/038.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/054.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/153.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/179.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/187.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/196.jpg,Shih-Tzu,train,5. Duplicada
+train/Shih-Tzu/197.jpg,Shih-Tzu,train,5. Duplicada
+train/Vizsla/08.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/31.jpg,Vizsla,train,3. Borrosa (solo train)
+train/Vizsla/45.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/51.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/54.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/55.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/56.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/72.jpg,Vizsla,train,5. Duplicada
+train/Vizsla/79.jpg,Vizsla,train,5. Duplicada
+train/Yorkie/50.jpg,Yorkie,train,3. Borrosa (solo train)
+valid/African Wild Dog/06.jpg,African Wild Dog,valid,5. Duplicada
+valid/African Wild Dog/08.jpg,African Wild Dog,valid,5. Duplicada
+valid/American  Spaniel/04.jpg,American Spaniel,valid,5. Duplicada
+valid/Bichon Frise/01.jpg,Bichon Frise,valid,5. Duplicada
+valid/Bichon Frise/10.jpg,Bichon Frise,valid,5. Duplicada
+valid/Bulldog/10.jpg,Bulldog,valid,5. Duplicada
+valid/Chinese Crested/09.jpg,Chinese Crested,valid,5. Duplicada
+valid/Clumber/04.jpg,Clumber,valid,5. Duplicada
+valid/Doberman/02.jpg,Doberman,valid,5. Duplicada
+valid/Greyhound/06.jpg,Greyhound,valid,5. Duplicada
+valid/Malinois/01.jpg,Malinois,valid,5. Duplicada
+valid/Rhodesian/10.jpg,Rhodesian,valid,5. Duplicada
+valid/Shar_Pei/10.jpg,Shar_Pei,valid,5. Duplicada
+valid/Vizsla/06.jpg,Vizsla,valid,5. Duplicada
+valid/Vizsla/10.jpg,Vizsla,valid,5. Duplicada
+test/Cockapoo/05.jpg,Cockapoo,test,5. Duplicada
+test/Groenendael/10.jpg,Groenendael,test,5. Duplicada
+test/Newfoundland/09.jpg,Newfoundland,test,5. Duplicada
+test/Newfoundland/10.jpg,Newfoundland,test,5. Duplicada
