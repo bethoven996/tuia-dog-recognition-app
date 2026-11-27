@@ -368,7 +368,7 @@ Se encontraron 327 pares de duplicados, 130 de ellos entre splits distintos (61 
 
 - 184 imágenes de un perro de 22 razas (entre 5 y 10 por raza): Beagle, Bichon Frise, Border Collie, Boston Terrier, Chihuahua, Cockapoo, Collie, Dalmation, French Bulldog, German Sheperd, Golden Retriever, Komondor, Labradoodle, Labrador, Lhasa, Malinois, Maltese, Pug, Rhodesian, Shih-Tzu, Siberian Husky y Vizsla.
 - 16 escenas con varios perros, personas u objetos, y 21 imágenes sin perros, para la Etapa 3.
-- Link de descarga (solo lectura): **PENDIENTE: link de Drive de independent.zip**
+- Link de descarga (solo lectura): [carpeta tp2 en Google Drive](https://drive.google.com/drive/folders/1SnNhPsoO0mt7Gb1PWTMirqP_Ib5pN4IF?usp=sharing), archivo `independent.zip`. Se descomprime en `data/dataset/independent/`.
 
 **Preprocesamiento.** Un único módulo compartido (`src/lib/preprocessing.py`): BGR → RGB, resize directo a 224×224 y normalización con la media y el desvío de ImageNet.
 
@@ -404,7 +404,7 @@ En cada época se guarda el checkpoint solo si mejora la accuracy de valid.
 
 **Umbral de similitud.** `SIMILARITY_THRESHOLD = 0.822` con `EMBEDDING_MODEL = resnet18_finetuned`, similitud coseno y `TOP_K = 10`. Regla: percentil 2 del score del vecino más parecido en valid, es decir, se acepta rechazar como `unknown` al 2 % de los perros reales. Con los embeddings del baseline la misma regla da 0,836. Con 0,822 se rechaza el 81 % de las imágenes sin perros (17 de 21; el baseline rechazaba el 95 %).
 
-**Checkpoints.** Link público de solo lectura: **PENDIENTE: link de Drive de la carpeta models**
+**Checkpoints.** Link público de solo lectura: [carpeta tp2 en Google Drive](https://drive.google.com/drive/folders/1SnNhPsoO0mt7Gb1PWTMirqP_Ib5pN4IF?usp=sharing), subcarpeta `models/`. Contiene `resnet18_finetuned.pth` y `cnn_custom.pth` (los modelos elegidos) y los checkpoints de los dos experimentos del Modelo B.
 
 Ubicación esperada: `models/resnet18_finetuned.pth` y `models/cnn_custom.pth`. Los pesos de YOLO (`models/yolov8n.pt`) se descargan solos en el primer uso.
 
