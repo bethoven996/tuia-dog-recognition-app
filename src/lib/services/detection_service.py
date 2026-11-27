@@ -7,7 +7,9 @@ from uuid import uuid4
 
 import cv2
 import numpy as np
+import torch
 
+from lib import preprocessing as prep
 from lib.schemas import ClassifyResult, DetectResult, DogDetection
 from lib.services.classifier_service import ClassifierService
 
@@ -75,7 +77,20 @@ class DetectionService:
 
         Retorna una lista de ((x1, y1, x2, y2), confidence) en pixeles.
         """
-        raise NotImplementedError("Etapa 3: implementar detect_dogs")
+        # El detector se carga una sola vez y queda cacheado en la instancia
+        if getattr(self, "_yolo", None) is None:
+            from ultralytics import YOLO
+
+            self._yolo = YOLO(self.yolo_model_name)
+
+        resultado = self._yolo.predict(
+            image, conf=self.conf_threshold, classes=[self.dog_class_id], verbose=False
+        )[0]
+        detecciones = []
+        for box, conf in zip(resultado.boxes.xyxy.tolist(), resultado.boxes.conf.tolist()):
+            x1, y1, x2, y2 = (int(round(v)) for v in box)
+            detecciones.append(((x1, y1, x2, y2), float(conf)))
+        return detecciones
 
     def classify_detected_dog(self, crop: np.ndarray) -> tuple[str, float]:
         """
@@ -84,7 +99,15 @@ class DetectionService:
 
         El recorte llega en BGR (OpenCV). Retorna (raza, score).
         """
-        raise NotImplementedError("Etapa 3: implementar classify_detected_dog")
+        model = self.classifier.load_model()
+        model.eval()
+        device = next(model.parameters()).device
+        # Mismo preprocesamiento que en el entrenamiento (BGR -> RGB, resize, normalizacion ImageNet)
+        x = prep.to_tensor(prep.to_rgb_resized(crop, self.classifier.image_size)).unsqueeze(0).to(device)
+        with torch.no_grad():
+            probs = torch.softmax(model(x), dim=1)[0]
+        indice = int(probs.argmax())
+        return model.classes[indice], float(probs[indice])
 
     # ------------------------------------------------------------------
     # Orquestacion provista
